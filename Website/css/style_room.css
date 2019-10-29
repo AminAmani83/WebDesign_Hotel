@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'CinzelDecorative-Regular';
+    src: url('fonts/CinzelDecorative-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'CinzelDecorative-Bold';
+    src: url('fonts/CinzelDecorative-Bold.ttf') format('truetype');
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    font-family: 'CinzelDecorative-Bold';
+    background-color: #181510;
+    color: #CBB682;
+    padding: 1.5em 0;
+    margin-bottom: 0;
+}
+#carousel img {
+    margin-bottom: 20px;
+}
+#carousel_block img {
+    margin-bottom: 20px;
+}
+
+hr {
+    margin-top: 0;
+    border: none;
+    height: 12px;
+    background-color: #CBB682;
+}
+
+h2 {
+    font-family: 'CinzelDecorative-Regular';
+    color: #CBB682;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+ul {
+    text-align: left;
+    list-style: none;
+    padding-right: 60px;
+}
+
+#bed {
+    list-style-image: url('img/Amenities/bed-room.png');
+}
+
+#bath {
+    list-style-image: url('img/Amenities/bath-room.png');
+}
+
+#living {
+    list-style-image: url('img/Amenities/living-room.png');
+}
+
+#dress {
+    list-style-image: url('img/Amenities/dressing-room.png');
+}
+
+#family {
+    list-style-image: url('img/Amenities/family-room.png');
+}
+
+#bell {
+    list-style-image: url('img/Amenities/bell.png');
+}
+
+#food {
+    list-style-image: url('img/Amenities/drinking.png');
+}
+
+button {
+    margin-bottom: 10px;
+    background-color: #181510;
+}
+
+a, a:hover, a:active {
+    color: #CBB682;
+    text-decoration: none;
+}
+@media (min-width:992px) {
+    .list-unstyled li {
+        background-color: #e6eeff;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .nav-link {
+        background-color: none;
+        font-size: 130%;
+        font-weight: bold;
+    }
+    .navbar {
+        margin-top: 20px;
+    }
+    #contact {
+        margin-top: 50px;
+        font-size: 110%;
+    }
+}
