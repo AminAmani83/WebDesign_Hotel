@@ -19,6 +19,10 @@ header {
     z-index: 9999;
 }
 
+#first_container {
+    margin-top: 90px; 
+}
+
 #top-logo {
     max-width: 300px;
 }
