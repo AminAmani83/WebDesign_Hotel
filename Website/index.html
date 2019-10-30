@@ -92,8 +92,8 @@
     <main>
         <div class="container">
             <!-- Check Availability - TOP -->
-            <div class="row">
-                <div class="col-10 offset-1 p-3 mt-3 mb-3 border border-secondary text-center">
+            <div class="row mt-4">
+                <div class="col-10 offset-1 col-md-12 offset-md-0 p-3 border border-info text-center">
                     <form id="check-availability-top" action="#" method="GET">
                         <div class="form-row">
                             <div class="col-12 col-md-3 form-group">
@@ -108,8 +108,8 @@
                                 <label for="guests-top">Guests: </label><br>
                                 <input type="number" name="number-of-guests" id="guests-top" value="1" />
                             </div>
-                            <div class="col-12 col-md-3 form-group">
-                                <button class="btn btn-info">Check Availability</button>
+                            <div class="col-12 col-md-3 form-group check-button-div">
+                                <button class="btn btn-info" id="check-button-top">Check Availability</button>
                             </div>
                         </div>
                     </form>
@@ -117,7 +117,7 @@
             </div>
 
             <!-- Intro -->
-            <div class="row">
+            <div class="row mt-5">
                 <div class="col-10 offset-1 text-center p3">
                     <h2>Intro</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sollicitudin magna ex, id dictum
@@ -131,14 +131,15 @@
                     <hr>
                 </div>
             </div>
+
         </div>
 
         <!-- Rooms -->
         <section>
             <div class="container-fluid">
-                <div class="row">
+                <div class="row mt-5">
                     <div class="col-12 text-center bg-primary text-info">
-                        <h2 class="pt-3 pb-3">Rooms</h2>
+                        <h2 class="pt-4 pb-4">Rooms</h2>
                         <!-- Rooms Carousel -->
                         <div id="rooms-Carousel" class="carousel slide" data-ride="carousel">
                             <!-- Slides -->
@@ -188,9 +189,14 @@
 
         <div class="container">
             <!-- Services & Facilities -->
-            <div class="row mt-5">
+            <div class="row mt-5 mb-5 text-center">
+                <div class="col-12">
+                    <h2>Services & Facilities</h2>
+                </div>
+            </div>
+            <div class="row">
                 <div class="col-12 col-md-6">
-                    <img class="img-fluid" src="img/indoor swimming pool.jpg" alt="">
+                    <img class="img-fluid" src="img/stock-photo-interior-design-relaxation-room-in-a-classic-style-d-rendering-1288305850.jpg" alt="Pool & SPA">
                 </div>
                 <div class="col-12 col-md-6 mt-3">
                     <h3>Pool & SPA</h3>
@@ -202,7 +208,7 @@
             </div>
 
             <div class="row mt-5">
-                <div class="col-12 col-md-6 order-md-2 mt-3">
+                <div class="col-12 col-md-6 order-md-2">
                     <img class="img-fluid" src="img/indoor swimming pool.jpg" alt="">
                 </div>
                 <div class="col-12 col-md-6 order-md-1 mt-3">
@@ -216,15 +222,25 @@
 
             <!-- Check Availability - Bottom -->
             <div class="row mt-4 mb-4">
-                <div class="col-12 p-3 border-secondary text-center">
+                <div class="col-10 offset-1 col-md-12 offset-md-0 p-3 border border-info text-center">
                     <form id="check-availability-bottom" action="#" method="GET">
-                        <label for="date-from-bottom">Check In: </label>
-                        <input type="date" name="date-from" id="date-from-bottom" />
-                        <label for="date-to-bottom">Check Out: </label>
-                        <input type="date" name="date-to" id="date-to-bottom" />
-                        <label for="guests-bottom">Number of Guests: </label>
-                        <input type="number" name="number-of-guests" id="guests-bottom" value="1" />
-                        <button class="btn btn-info">Check Availability</button>
+                        <div class="form-row">
+                            <div class="col-12 col-md-3 form-group">
+                                <label for="date-from-bottom">Check In: </label><br>
+                                <input type="date" name="date-from" id="date-from-bottom" />
+                            </div>
+                            <div class="col-12 col-md-3 form-group">
+                                <label for="date-to-bottom">Check Out: </label><br>
+                                <input type="date" name="date-to" id="date-to-bottom" />
+                            </div>
+                            <div class="col-12 col-md-3 form-group">
+                                <label for="guests-bottom">Guests: </label><br>
+                                <input type="number" name="number-of-guests" id="guests-bottom" value="1" />
+                            </div>
+                            <div class="col-12 col-md-3 form-group check-button-div">
+                                <button class="btn btn-info" id="check-button-bottom">Check Availability</button>
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>

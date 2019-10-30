@@ -37,15 +37,22 @@ h2 {
     padding: 0;
 }
 
+#guests-top, #check-button-top, #guests-bottom, #check-button-bottom {
+    width: 155.23px;
+}
+
+.check-button-div {
+    padding-top: 26px;
+}
+
+
 /* Overriding Bootstrap */
 /* Carousel */
 .rooms-carousel-caption {
     position: relative;
     left: 0;
     top: 0;
-    color: #CBB682;
 }
-
 
 /* #check-availability-top button {
     vertical-align: middle;
