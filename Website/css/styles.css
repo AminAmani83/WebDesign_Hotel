@@ -12,6 +12,10 @@ body {
     font-family: Helvetica, sans-serif;
 }
 
+#top-logo {
+    width: 350px;
+}
+
 hr {
     margin-top: 0;
     border: none;
@@ -19,19 +23,18 @@ hr {
     background-color: #CBB682;
 }
 
-h1 {
+h1, h2, .h1, .h2 {
     font-family: 'CinzelDecorative-Regular';
     color: #CBB682;
     margin-top: 5px;
     margin-bottom: 10px;
 }
 
-h2 {
+h3, .h3 {
     font-family: 'CinzelDecorative-Regular';
-    color: #CBB682;
-    margin-top: 5px;
-    margin-bottom: 10px;
+    color: #181510;
 }
+
 
 #main-slideshow {
     padding: 0;
@@ -63,39 +66,48 @@ h2 {
     color: #181510!important;
 }
 .text-secondary {
-    color: #323232!important;
+    color: #785F35!important;
 }
-.text-light {
-    color: #cccccc!important;
+.text-warning {
+    color: #A08C5B!important;
 }
 .text-info {
     color: #CBB682!important;
+}
+.text-light {
+    color: #E9DBBD!important;
 }
 
 .border-primary {
     border-color: #181510!important;
 }
 .border-secondary {
-    border-color: #323232!important;
+    border-color: #785F35!important;
 }
-.border-light {
-    border-color: white!important;
+.border-warning {
+    border-color: #A08C5B!important;
 }
 .border-info {
     border-color: #CBB682!important;
+}
+.border-light {
+    border-color: #E9DBBD!important;
 }
 
 .bg-primary {
     background-color: #181510!important;
 }
 .bg-secondary {
-    background-color: #323232!important;
+    background-color: #785F35!important;
 }
-.bg-light {
-    background-color: white!important;
+.bg-warning {
+    background-color: #A08C5B!important;
 }
 .bg-info {
     background-color: #CBB682!important;
+}
+.bg-light {
+    background-color: #E9DBBD!important;
 }
 
 /* Buttons  */
@@ -107,7 +119,7 @@ h2 {
   }
   
   .btn-info:hover {
-    color: white;
+    color: #E9DBBD!important;
     background-color: #CBB682;
     border-color: #CBB682;
   }
@@ -117,14 +129,14 @@ h2 {
   }
 
   .btn-info.disabled, .btn-info:disabled {
-    color: white;
+    color: #E9DBBD!important;
     background-color: #CBB682;
     border-color: #CBB682;
   }
 
   .btn-info:not(:disabled):not(.disabled):active, .btn-info:not(:disabled):not(.disabled).active,
 .show > .btn-info.dropdown-toggle {
-  color: white;
+  color: #E9DBBD!important;
   background-color: #CBB682;
   border-color: #CBB682;
 }

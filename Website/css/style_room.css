@@ -19,31 +19,31 @@ ul {
 }
 
 #bed {
-    list-style-image: url('img/Amenities/bed-room.png');
+    list-style-image: url('../img/Amenities/bed-room.png');
 }
 
 #bath {
-    list-style-image: url('img/Amenities/bath-room.png');
+    list-style-image: url('../img/Amenities/bath-room.png');
 }
 
 #living {
-    list-style-image: url('img/Amenities/living-room.png');
+    list-style-image: url('../img/Amenities/living-room.png');
 }
 
 #dress {
-    list-style-image: url('img/Amenities/dressing-room.png');
+    list-style-image: url('../img/Amenities/dressing-room.png');
 }
 
 #family {
-    list-style-image: url('img/Amenities/family-room.png');
+    list-style-image: url('../img/Amenities/family-room.png');
 }
 
 #bell {
-    list-style-image: url('img/Amenities/bell.png');
+    list-style-image: url('../img/Amenities/bell.png');
 }
 
 #food {
-    list-style-image: url('img/Amenities/drinking.png');
+    list-style-image: url('../img/Amenities/drinking.png');
 }
 
 button {
