@@ -12,13 +12,6 @@ body {
     font-family: Helvetica, sans-serif;
 }
 
-header {
-    /* background-color: #181510;
-    color: #CBB682; */
-    /* padding: 1.5em 0;
-    margin-bottom: 0; */
-}
-
 hr {
     margin-top: 0;
     border: none;
@@ -50,6 +43,7 @@ h2 {
     position: relative;
     left: 0;
     top: 0;
+    color: #CBB682;
 }
 
 
