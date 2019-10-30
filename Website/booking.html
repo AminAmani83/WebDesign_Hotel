@@ -42,12 +42,12 @@
                     <div class="col-12">
                         <p>Please leave us your details and we'll get back to you ASAP</p>
                     </div>
-                    <form action="http://jac.stephmoreau.ca/submitForm/" method="POST" id="userForm">
+                    <form action="http://jac.stephmoreau.ca/submitForm/" method="GET" id="userForm">
                         <div class="row">
                             <div class='col-12 col-md-6'>
                                 <div class="form-group">
                                     <label for="email">Email address</label>
-                                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                                    <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp"
                                         placeholder="Enter email">
                                     <small id="emailHelp" class="form-text text-muted">We'll never share your email
                                         with anyone
@@ -57,7 +57,7 @@
                             <div class='col-12 col-md-6'>
                                 <div class="form-group">
                                     <label for="name">Name</label>
-                                    <input type="text" class="form-control" id="name"
+                                    <input type="text" class="form-control" id="name" name="name"
                                         placeholder="Enter your name please">
                                 </div>
                             </div>
@@ -68,7 +68,7 @@
                             <div class="col-12 col-md-6">
                                 <div class="form-group">
                                     <label for="package">Chose package</label>
-                                    <select class="form-control" id="package">
+                                    <select class="form-control" id="package" name="package">
                                         <option>Gold</option>
                                         <option>Platinum</option>
                                         <option>Diamond</option>
@@ -77,8 +77,8 @@
                             </div>
                             <div class="col-12 col-md-6">
                                 <div class="form-group">
-                                    <label for="package">Chose room</label>
-                                    <select class="form-control" id="package">
+                                    <label for="room">Choose room</label>
+                                    <select class="form-control" id="room" name="room">
                                         <option>Golden Garden</option>
                                         <option>Honey Rose</option>
                                         <option>Mountain Wind</option>
