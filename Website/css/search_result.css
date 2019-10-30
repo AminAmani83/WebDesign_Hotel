@@ -8,6 +8,10 @@ ul {
     padding-right: 60px;
 }
 
+button {
+    margin: 8px;
+}
+
 /* a, a:hover, a:active {
     color: #CBB682;
     text-decoration: none;
