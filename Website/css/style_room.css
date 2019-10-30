@@ -41,10 +41,10 @@ ul {
     list-style-image: url('../img/Amenities/drinking.png');
 }
 
-button {
+/* button {
     margin-bottom: 10px;
     background-color: #181510;
-}
+} */
 
 a, a:hover, a:active {
     color: #CBB682;

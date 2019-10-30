@@ -1,40 +1,5 @@
-@font-face {
-    font-family: 'CinzelDecorative-Regular';
-    src: url('fonts/CinzelDecorative-Regular.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'CinzelDecorative-Bold';
-    src: url('fonts/CinzelDecorative-Bold.ttf') format('truetype');
-}
-
-body {
-    font-family: Helvetica, sans-serif;
-}
-
-header {
-    font-family: 'CinzelDecorative-Bold';
-    background-color: #181510;
-    color: #CBB682;
-    padding: 1.5em 0;
-    margin-bottom: 0;
-}
 img {
     margin-bottom: 20px;
-}
-
-hr {
-    margin-top: 0;
-    border: none;
-    height: 12px;
-    background-color: #CBB682;
-}
-
-h2 {
-    font-family: 'CinzelDecorative-Regular';
-    color: #CBB682;
-    margin-top: 5px;
-    margin-bottom: 10px;
 }
 
 ul {
@@ -43,17 +8,11 @@ ul {
     padding-right: 60px;
 }
 
-
-
-button {
-    margin-bottom: 10px;
-    background-color: #181510;
-}
-
-a, a:hover, a:active {
+/* a, a:hover, a:active {
     color: #CBB682;
     text-decoration: none;
-}
+} */
+
 @media (min-width:992px) {
     .list-unstyled li {
         background-color: #e6eeff;

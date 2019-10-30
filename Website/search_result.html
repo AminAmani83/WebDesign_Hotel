@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Google Fonts CSS -->
 
     <!-- Custom CSS For All Pages -->
@@ -18,17 +19,24 @@
 </head>
 
 <body>
+
+    <header>
+        <div class="container-fluid">
+            <div class="row bg-primary text-light p-3">
+                <div class="col-12 text-center col-md-8 text-md-left">
+                    <a href="index.html" title="Royal Hotel Main Page">
+                        <img id="top-logo" class="img-fluid" src="img/Royal-Hotel-Logo.png" alt="logo">
+                    </a>
+                </div>
+                <!-- <div class="col-2">Home | Facilities | Contact Us </div> -->
+                <div class="col-4 text-right d-none d-md-block pt-2">
+                    <button type="button" class="btn btn-info">Book Now</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
     <div class="container">
-
-        <header class="row">
-            <div class="col-12 text-center col-md-8 text-md-left">
-                <img id="top-logo" class="img-fluid" src="img/logo.png" alt="logo" />
-            </div>
-            <div class="col-4 text-right d-none d-md-block pt-2">
-                <h1>Following Packages Meet Your Search</h1>
-            </div>
-        </header>
-
 
         <main class="row">
             <!--Package 1-->
@@ -39,18 +47,23 @@
                 <!--option 1 -->
                 <div class="row step">
                     <div class="col=12 col-lg-6">
-                        <img src="img/GoldenGarden_1.png" alt="GoldenGarden" class="img-fluid" />
+                        <img src="img/Rooms/GoldenGarden_1_thumb.png" alt="GoldenGarden" class="img-fluid" />
                     </div>
                     <div class="col-12 col-lg-6 text-justify">
-                        <h3>Golden Garden <button type="button"><a href="index_room_GoldenGarden.html">More Info</a></button></h3>
-                        
+                        <h3>Golden Garden <button type="button" class="btn btn-info"><a
+                                    href="index_room_GoldenGarden.html">More
+                                    Info</a></button></h3>
+
                         <!-- <p>The classic rooms are decorated with Louis XV and Louis XVI authentic furniture. Chandelier are handmade with Swarovski crystal. Walkin style dressing room and pure French classic style living room offer space and comfort in central Montreal for a luxurious stay in the modern city.</p> -->
                         <ul>
                             <li><strong>Rate/night (Three Valued Packages): </strong>
                                 <ul>
-                                    <li><strong>Classic Package: CAD$3000.00  </strong><button type="button"><a href="booking.html">Book</a></button></li>
-                                    <li><strong>Gold Package: CAD$3100.00  </strong><button type="button"><a href="booking.html">Book</a></button></li>
-                                    <li><strong>Platinum Package: CAD$3300.00  </strong><button type="button"><a href="booking.html">Book</a></button></li>
+                                    <li><strong>Classic Package: CAD$3000.00 </strong><button type="button"
+                                            class="btn btn-info"><a href="booking.html">Book</a></button></li>
+                                    <li><strong>Gold Package: CAD$3100.00 </strong><button type="button"
+                                            class="btn btn-info"><a href="booking.html">Book</a></button></li>
+                                    <li><strong>Platinum Package: CAD$3300.00 </strong><button type="button"
+                                            class="btn btn-info"><a href="booking.html">Book</a></button></li>
                                 </ul>
                             </li>
                             <li><strong>Beds: </strong>1 King + 1 Queen</li>
@@ -62,25 +75,30 @@
                             <li><strong>Food service: </strong>yes, but extra charge may apply.</li>
 
                         </ul>
-                        
-                       
+
+
                     </div>
                 </div>
                 <hr>
                 <!--option 2 -->
                 <div class="row step">
                     <div class="col=12 col-lg-6">
-                        <img src="img/HoneyRose_1.png" alt="HoneyRose" class="img-fluid" />
+                        <img src="img/Rooms/GoldenGarden_2_thumb.png" alt="HoneyRose" class="img-fluid" />
                     </div>
                     <div class="col-12 col-lg-6">
-                        <h3>Honey Rose <button type="button"><a href="index_room_GoldenGarden.html">More Info</a></button></h3>
+                        <h3>Honey Rose <button type="button" class="btn btn-info"><a
+                                    href="index_room_GoldenGarden.html">More
+                                    Info</a></button></h3>
                         <!-- <p>The luxurious honeymoon suite is decorated with red rose petals and featuring a fancy, canopied bed. The semi-private, glass-enclosed sunporch boasts a phenomenal, second storey direct view of the waterfront. Just for couples and romantic getaways.</p> -->
                         <ul>
                             <li><strong>Rate/night (Three Valued Packages): </strong>
                                 <ul>
-                                    <li><strong>Classic Package: CAD$2000.00  </strong><button type="button"><a href="booking.html">Book</a></button></li>
-                                    <li><strong>Gold Package: CAD$2100.00  </strong><button type="button"><a href="booking.html">Book</a></button></li>
-                                    <li><strong>Platinum Package: CAD$2300.00  </strong><button type="button"><a href="booking.html">Book</a></button></li>
+                                    <li><strong>Classic Package: CAD$2000.00 </strong><button type="button"
+                                            class="btn btn-info"><a href="booking.html">Book</a></button></li>
+                                    <li><strong>Gold Package: CAD$2100.00 </strong><button type="button"
+                                            class="btn btn-info"><a href="booking.html">Book</a></button></li>
+                                    <li><strong>Platinum Package: CAD$2300.00 </strong><button type="button"
+                                            class="btn btn-info"><a href="booking.html">Book</a></button></li>
                                 </ul>
                             </li>
                             <li><strong>Beds: </strong>1 Queen</li>
@@ -90,24 +108,29 @@
                             <li><strong>Bell service: </strong>included</li>
                             <li><strong>Food service: </strong>yes, but extra charge may apply.</li>
                         </ul>
-                        
+
                     </div>
                 </div>
                 <hr>
                 <!--option 3 -->
                 <div class="row step">
                     <div class="col=12 col-lg-6">
-                        <img src="img/MountainWind_1.png" alt="MountainWind" class="img-fluid" />
+                        <img src="img/Rooms/GoldenGarden_3_thumb.png" alt="MountainWind" class="img-fluid" />
                     </div>
                     <div class="col-12 col-lg-6 text-justify">
-                        <h3>Mountain Wind <button type="button"><a href="index_room_GoldenGarden.html">More Info</a></button></h3>
+                        <h3>Mountain Wind <button type="button" class="btn btn-info"><a
+                                    href="index_room_GoldenGarden.html">More
+                                    Info</a></button></h3>
                         <!-- <p>Mountain View Bed & Breakfast is an independent style accommodations located a few minutes' walk from beautiful mountain. An easy and enjoyable hike to the top gives you great views of town in less than 40 mins.</p> -->
                         <ul>
                             <li><strong>Rate/night (Three Valued Packages): </strong>
                                 <ul>
-                                    <li><strong>Classic Package: CAD$2200.00  </strong><button type="button"><a href="booking.html">Book</a></button></li>
-                                    <li><strong>Gold Package: CAD$2300.00  </strong><button type="button"><a href="booking.html">Book</a></button></li>
-                                    <li><strong>Platinum Package: CAD$2500.00  </strong><button type="button"><a href="booking.html">Book</a></button></li>
+                                    <li><strong>Classic Package: CAD$2200.00 </strong><button type="button"
+                                            class="btn btn-info"><a href="booking.html">Book</a></button></li>
+                                    <li><strong>Gold Package: CAD$2300.00 </strong><button type="button"
+                                            class="btn btn-info"><a href="booking.html">Book</a></button></li>
+                                    <li><strong>Platinum Package: CAD$2500.00 </strong><button type="button"
+                                            class="btn btn-info"><a href="booking.html">Book</a></button></li>
                                 </ul>
                             </li>
                             <li><strong>Beds: </strong>1 Queen</li>
@@ -117,16 +140,18 @@
                             <li><strong>Bell service: </strong>included</li>
                             <li><strong>Food service: </strong>yes, but extra charge may apply.</li>
                         </ul>
-                        
+
                     </div>
                 </div>
                 <hr>
             </div>
-            
+
             <div>
                 <ol>
-                    <li>Classic package include breakfast, free parking, free shuttle to/from airport, access to pool, spa and fittness facilities. </li>
-                    <li>Gold package add 1 dinner for two guests in all our 5 selected fancy resturants to classic package. </li>
+                    <li>Classic package include breakfast, free parking, free shuttle to/from airport, access to pool,
+                        spa and fittness facilities. </li>
+                    <li>Gold package add 1 dinner for two guests in all our 5 selected fancy resturants to classic
+                        package. </li>
                     <li>Platinum package add 1 hour massage for two guests in-room service to gold package. </li>
                 </ol>
             </div>
@@ -134,10 +159,41 @@
         </main>
 
 
-        <footer class="row">
-            <div class="col-12 col-lg-6 text-center text-lg-center">
-                &copy; Royal Hotel 2019
-            </div>    
+        <footer>
+            <div class="container-fluid">
+                <div class="row bg-primary pt-5 pb-5">
+                    <div class="col-12 col-md-3 offset-md-1">
+                        <h4 class="text-info pb-3">About</h4>
+                        <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                            sollicitudin magna ex, id dictum
+                            mauris suscipit vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                            inceptos himenaeos. In placerat faucibus ligula sed efficitur. In eleifend sollicitudin
+                            quam,
+                            vitae
+                            mattis ligula rhoncus non. Morbi vitae aliquet risus, sit amet aliquam erat. </p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <h4 class="text-info pb-3">Links</h4>
+                        <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                            sollicitudin magna ex, id dictum
+                            mauris suscipit vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                            inceptos himenaeos. In placerat faucibus ligula sed efficitur. In eleifend sollicitudin
+                            quam,
+                            vitae
+                            mattis ligula rhoncus non. Morbi vitae aliquet risus, sit amet aliquam erat. </p>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <h4 class="text-info pb-3">Contact</h4>
+                        <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                            sollicitudin magna ex, id dictum
+                            mauris suscipit vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                            inceptos himenaeos. In placerat faucibus ligula sed efficitur. In eleifend sollicitudin
+                            quam,
+                            vitae
+                            mattis ligula rhoncus non. Morbi vitae aliquet risus, sit amet aliquam erat. </p>
+                    </div>
+                </div>
+            </div>
         </footer>
 
     </div>
@@ -155,7 +211,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-   
+
     <!-- Custom JS
     <script src="js/index.js"></script> -->
 </body>
