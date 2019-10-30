@@ -64,7 +64,7 @@ a:hover {
         margin-top: 10px;
     }
     .nav-link {
-        background-color: none;
+        background-color: white;
         font-size: 130%;
         font-weight: bold;
     }
