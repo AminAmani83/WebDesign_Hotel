@@ -16,13 +16,6 @@ body {
     max-width: 300px;
 }
 
-hr {
-    margin-top: 0;
-    border: none;
-    height: 12px;
-    background-color: #CBB682;
-}
-
 h1, h2, .h1, .h2 {
     font-family: 'CinzelDecorative-Regular';
     color: #CBB682;
@@ -34,30 +27,15 @@ h3, h4, .h3, .h4, h5, .h5 {
     font-family: 'CinzelDecorative-Regular';
 }
 
-#main-slideshow {
-    padding: 0;
-}
-
-#guests-top, #check-button-top, #guests-bottom, #check-button-bottom {
-    width: 155.23px;
-}
-
-.check-button-div {
-    padding-top: 26px;
+hr {
+    margin-top: 0;
+    border: none;
+    height: 12px;
+    background-color: #CBB682;
 }
 
 
 /* Overriding Bootstrap */
-/* Carousel */
-.rooms-carousel-caption {
-    position: relative;
-    left: 0;
-    top: 0;
-}
-
-/* #check-availability-top button {
-    vertical-align: middle;
-} */
 
 /*  Colors  */
 .text-primary {

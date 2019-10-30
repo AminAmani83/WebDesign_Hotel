@@ -1,0 +1,21 @@
+/* Check Availablility Form  */
+#guests-top, #check-button-top, #guests-bottom, #check-button-bottom {
+    width: 155.23px;
+}
+.check-button-div {
+    padding-top: 26px;
+}
+
+/* Carousel */
+#main-slideshow {
+    padding: 0;
+}
+.rooms-carousel-caption {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.carousel-caption {
+    background: rgba(24, 21, 16, 0.75);
+    border-radius: 15px;
+}
