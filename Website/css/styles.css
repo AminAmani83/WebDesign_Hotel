@@ -1,1 +1,135 @@
+@font-face {
+    font-family: 'CinzelDecorative-Regular';
+    src: url('../fonts/CinzelDecorative-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'CinzelDecorative-Bold';
+    src: url('../fonts/CinzelDecorative-Bold.ttf') format('truetype');
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    /* background-color: #181510;
+    color: #CBB682; */
+    /* padding: 1.5em 0;
+    margin-bottom: 0; */
+}
+
+hr {
+    margin-top: 0;
+    border: none;
+    height: 12px;
+    background-color: #CBB682;
+}
+
+h1 {
+    font-family: 'CinzelDecorative-Regular';
+    color: #CBB682;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: 'CinzelDecorative-Regular';
+    color: #CBB682;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#main-slideshow {
+    padding: 0;
+}
+
+/* Overriding Bootstrap */
+/* Carousel */
+.rooms-carousel-caption {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+
+/* #check-availability-top button {
+    vertical-align: middle;
+} */
+
+/* My Text Colors  */
+.text-primary {
+    color: #181510!important;
+}
+.text-secondary {
+    color: #323232!important;
+}
+.text-light {
+    color: #cccccc!important;
+}
+.text-info {
+    color: #CBB682!important;
+}
+
+.border-primary {
+    border-color: #181510!important;
+}
+.border-secondary {
+    border-color: #323232!important;
+}
+.border-light {
+    border-color: white!important;
+}
+.border-info {
+    border-color: #CBB682!important;
+}
+
+.bg-primary {
+    background-color: #181510!important;
+}
+.bg-secondary {
+    background-color: #323232!important;
+}
+.bg-light {
+    background-color: white!important;
+}
+.bg-info {
+    background-color: #CBB682!important;
+}
+
+/* Buttons  */
+.btn-info {
+    color: #CBB682;
+    background-color: #181510;
+    border-color: #181510;
+    box-shadow: 0 0 0 0.2rem rgba(203, 182, 130, 0.5);
+  }
+  
+  .btn-info:hover {
+    color: white;
+    background-color: #CBB682;
+    border-color: #CBB682;
+  }
+
+  .btn-info:focus, .btn-info.focus {
+    box-shadow: 0 0 0 0.2rem rgba(203, 182, 130, 0.5);
+  }
+
+  .btn-info.disabled, .btn-info:disabled {
+    color: white;
+    background-color: #CBB682;
+    border-color: #CBB682;
+  }
+
+  .btn-info:not(:disabled):not(.disabled):active, .btn-info:not(:disabled):not(.disabled).active,
+.show > .btn-info.dropdown-toggle {
+  color: white;
+  background-color: #CBB682;
+  border-color: #CBB682;
+}
+
+.btn-info:not(:disabled):not(.disabled):active:focus, .btn-info:not(:disabled):not(.disabled).active:focus,
+.show > .btn-info.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(203, 182, 130, 0.5);
+}
 
