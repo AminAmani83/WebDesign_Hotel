@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Custom CSS For All Pages -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Custom CSS For This Page -->
+    <link rel="stylesheet" href="css/booking.css">
+
+    <title>Book a suite</title>
+    <meta name="description" content="The Most Luxorious Hotel in North America">
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <div class="container-fluid">
+                <div class="row bg-primary text-light p-3">
+                    <div class="col-12 text-center col-md-8 text-md-left">
+                        <a href="index.html" title="Royal Hotel Main Page">
+                            <img id="top-logo" class="img-fluid" src="img/Royal-Hotel-Logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <!-- <div class="col-2">Home | Facilities | Contact Us </div> -->
+                    <div class="col-4 text-right d-none d-md-block pt-2">
+                        <button type="button" class="btn btn-info">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <main>
+            <div class="row">
+                <div class="col-12">
+                    <div class="col-12">
+                        <p>Please leave us your details and we'll get back to you ASAP</p>
+                    </div>
+                    <form action="http://jac.stephmoreau.ca/submitForm/" method="POST" id="userForm">
+                        <div class="row">
+                            <div class='col-12 col-md-6'>
+                                <div class="form-group">
+                                    <label for="email">Email address</label>
+                                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                                        placeholder="Enter email">
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email
+                                        with anyone
+                                        else.</small>
+                                </div>
+                            </div>
+                            <div class='col-12 col-md-6'>
+                                <div class="form-group">
+                                    <label for="name">Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Enter your name please">
+                                </div>
+                            </div>
+            
+                        </div>
+            
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="package">Chose package</label>
+                                    <select class="form-control" id="package">
+                                        <option>Gold</option>
+                                        <option>Platinum</option>
+                                        <option>Diamond</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="package">Chose room</label>
+                                    <select class="form-control" id="package">
+                                        <option>Golden Garden</option>
+                                        <option>Honey Rose</option>
+                                        <option>Mountain Wind</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="row">
+                            <div class='col-12'>
+                                <button type="submit" class="btn btn-info">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+            
+                </div>
+            </div>
+
+        </main>
+        <footer>
+            <div class="container-fluid">
+                <div class="row bg-primary pt-5 pb-5">
+                    <div class="col-12 col-md-3 offset-md-1">
+                        <h4 class="text-info pb-3">About</h4>
+                        <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sollicitudin
+                            magna ex, id dictum
+                            mauris suscipit vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                            inceptos himenaeos. In placerat faucibus ligula sed efficitur. In eleifend sollicitudin quam,
+                            vitae
+                            mattis ligula rhoncus non. Morbi vitae aliquet risus, sit amet aliquam erat. </p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <h4 class="text-info pb-3">Links</h4>
+                        <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sollicitudin
+                            magna ex, id dictum
+                            mauris suscipit vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                            inceptos himenaeos. In placerat faucibus ligula sed efficitur. In eleifend sollicitudin quam,
+                            vitae
+                            mattis ligula rhoncus non. Morbi vitae aliquet risus, sit amet aliquam erat. </p>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <h4 class="text-info pb-3">Contact</h4>
+                        <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sollicitudin
+                            magna ex, id dictum
+                            mauris suscipit vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                            inceptos himenaeos. In placerat faucibus ligula sed efficitur. In eleifend sollicitudin quam,
+                            vitae
+                            mattis ligula rhoncus non. Morbi vitae aliquet risus, sit amet aliquam erat. </p>
+                    </div>
+                </div>
+            </div>
+        
+        </footer>
+
+    </div>
+
+    <!-- JavaScript -->
+    <!-- jQuery JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
