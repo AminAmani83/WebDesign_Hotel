@@ -19,3 +19,6 @@
     background: rgba(24, 21, 16, 0.75);
     border-radius: 15px;
 }
+.nobullet {
+    list-style-type: none;
+}

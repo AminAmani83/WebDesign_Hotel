@@ -12,6 +12,13 @@ body {
     font-family: Helvetica, sans-serif;
 }
 
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
 #top-logo {
     max-width: 300px;
 }
