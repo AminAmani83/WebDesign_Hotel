@@ -10,6 +10,12 @@
 #main-slideshow {
     padding: 0;
 }
+
+#main-carousel h1 {
+    font-size: 2em;
+    color: white!important;
+}
+
 .rooms-carousel-caption {
     position: relative;
     left: 0;
