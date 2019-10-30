@@ -24,5 +24,14 @@ for(var i = 0; i < Bookbtns.length; i++){
 
 function redirectToBook(e){
     e.preventDefault();
-    window.location.replace("booking.html");
+    window.location.replace("search_result.html");
+}
+
+
+// document.getElementById("check-availability-top").addEventListener("click", openSearchresults);
+
+
+function openSearchresults(e){
+    e.preventDefault();
+    window.location.replace("search_result.html");
 }
