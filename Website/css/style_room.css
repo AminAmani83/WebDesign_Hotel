@@ -1,3 +1,6 @@
+#first_h2 {
+    margin-top: 20px;
+}
 
 #carousel img {
     margin-bottom: 20px;
@@ -41,15 +44,19 @@ ul {
     list-style-image: url('../img/Amenities/drinking.png');
 }
 
-/* button {
+button {
     margin-bottom: 10px;
     background-color: #181510;
-} */
-
-a, a:hover, a:active {
+}
+a {
     color: #CBB682;
+}
+
+a:hover {
+    color: white;
     text-decoration: none;
 }
+
 @media (min-width:992px) {
     .list-unstyled li {
         background-color: #e6eeff;
