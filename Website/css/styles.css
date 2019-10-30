@@ -13,7 +13,7 @@ body {
 }
 
 #top-logo {
-    width: 350px;
+    max-width: 350px;
 }
 
 hr {
@@ -30,11 +30,9 @@ h1, h2, .h1, .h2 {
     margin-bottom: 10px;
 }
 
-h3, .h3 {
+h3, h4, .h3, .h4, h5, .h5 {
     font-family: 'CinzelDecorative-Regular';
-    color: #181510;
 }
-
 
 #main-slideshow {
     padding: 0;
@@ -61,7 +59,7 @@ h3, .h3 {
     vertical-align: middle;
 } */
 
-/* My Text Colors  */
+/*  Colors  */
 .text-primary {
     color: #181510!important;
 }
@@ -119,7 +117,7 @@ h3, .h3 {
   }
   
   .btn-info:hover {
-    color: #E9DBBD!important;
+    color: white!important;
     background-color: #CBB682;
     border-color: #CBB682;
   }
