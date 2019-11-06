@@ -12,11 +12,6 @@ button {
     margin: 8px;
 }
 
-/* a, a:hover, a:active {
-    color: #CBB682;
-    text-decoration: none;
-} */
-
 @media (min-width:992px) {
     .list-unstyled li {
         background-color: #e6eeff;

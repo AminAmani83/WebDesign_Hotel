@@ -12,19 +12,23 @@ body {
     font-family: Helvetica, sans-serif;
 }
 
-header {
+header { /* Sticky header */
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 9999;
+    z-index: 9999; /* Header in front of content */
 }
 
-#first_container {
-    margin-top: 90px; 
+#first_container, #main-slideshow {
+    margin-top: 78px; /* Start the first page element after the (sticky) header */
 }
 
 #top-logo {
     max-width: 300px;
+}
+
+footer {
+    margin-top: 20px;
 }
 
 h1, h2, .h1, .h2 {
@@ -45,9 +49,8 @@ hr {
     background-color: #CBB682;
 }
 
-/* Overriding Bootstrap */
 
-/*  Colors  */
+/* Overriding Bootstrap Colors */
 .text-primary {
     color: #181510!important;
 }
@@ -96,7 +99,8 @@ hr {
     background-color: #E9DBBD!important;
 }
 
-/* Buttons  */
+
+/* Overriding Bootstrap Buttons */
 .btn-info {
     color: #CBB682;
     background-color: #181510;

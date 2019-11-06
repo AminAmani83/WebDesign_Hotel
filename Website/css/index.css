@@ -6,25 +6,46 @@
     padding-top: 26px;
 }
 
-/* Carousel */
-#main-slideshow {
-    padding: 0;
+/* hotel Intro */
+.nobullet {
+    list-style-type: none;
 }
 
+/* Main Carousel */
+#main-slideshow { /* Fill the whole screen */
+    padding: 0;
+}
 #main-carousel h1 {
     font-size: 2em;
     color: white!important;
 }
+#main-carousel h2 {
+    font-size: 2em;
+    color: white!important;
+}
+#main-carousel .carousel-caption { /* Adding a dark semi-transparent BG */
+    background: rgba(24, 21, 16, 0.75);
+    border-radius: 15px;
+    max-width: 700px;
+    margin: auto; /* center div */
+}
+#main-carousel .carousel-inner { /* Display a wide version of the image without touching the img file */
+    max-height: 700px;
+    overflow: hidden;
+}
+#main-carousel .carousel-item { /* Display a wide version of the image without touching the img file */    position: relative;
+    top:    -220px;
+    left: 0; 
+}
+#main-carousel .carousel-caption { /* Positioning of the caption */
+    position: relative;
+    left: 0;
+    top: -400px;
+}
 
-.rooms-carousel-caption {
+/* Rooms Carousel */
+#rooms-Carousel .carousel-caption { /* Display Caption below the image */
     position: relative;
     left: 0;
     top: 0;
-}
-.carousel-caption {
-    background: rgba(24, 21, 16, 0.75);
-    border-radius: 15px;
-}
-.nobullet {
-    list-style-type: none;
 }
